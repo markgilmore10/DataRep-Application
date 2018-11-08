@@ -1,0 +1,30 @@
+{
+  "name": "meanapp",
+  "version": "1.0.0",
+  "description": "My app for Data Representaion and Querying",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "dependencies": {
+    "express": "*",
+    "mongoose": "*",
+    "bcryptjs": "*",
+    "cors": "*",
+    "jsonwebtoken": "*",
+    "body-parser": "*",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markgilmore10/DataRep-Application.git"
+  },
+  "author": "Mark Gilmore",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markgilmore10/DataRep-Application/issues"
+  },
+  "homepage": "https://github.com/markgilmore10/DataRep-Application#readme"
+}
